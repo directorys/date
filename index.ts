@@ -43,5 +43,6 @@ if (pageElementText) {
 
 // Скопировать текст по щлчку:
 pageElementButton?.addEventListener('click', (): void => {
+  stringCoppy += '\n' + window.location.href;
   navigator.clipboard.writeText(stringCoppy);
 });
