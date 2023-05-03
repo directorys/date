@@ -25,8 +25,8 @@ if (pageElementText) {
         'День войны: ' + date.war + '\n' +
             'Дней до НГ: ' + date.year;
 }
+stringCoppy += '\n' + window.location.href;
 // Скопировать текст по щелчку:
 pageElementButton?.addEventListener('click', () => {
-    stringCoppy += '\n' + window.location.href;
     navigator.clipboard.writeText(stringCoppy);
 });
