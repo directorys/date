@@ -7,7 +7,7 @@
 .page {
   height: 100vh;
   background-image: url(https://i.yapx.cc/GzOYZ.gif);
-  background-position: center;
+  background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
